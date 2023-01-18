@@ -1,0 +1,50 @@
+.containerTaskCard {
+    height: 80%;
+    width: 40%;
+    display: flex;
+    /*align-items: center;*/
+    /*justify-content: center;*/
+    background-color: #ececec;
+    border-radius: 3rem;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px,
+    rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    padding: 3rem;
+    flex-direction: column;
+}
+
+.section1,
+.section2 {
+    flex-basis: 50%;
+}
+
+.section3 {
+    flex-basis: 60%;
+    flex-direction: column;
+    display: flex;
+}
+
+.welcomeText {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: limegreen;
+}
+
+.activityText {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    text-align: left;
+    margin: 1rem;
+    color: black;
+}
+
+.buttonsActivity {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sectionButton {
+    flex: 1;
+}

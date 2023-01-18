@@ -1,0 +1,12 @@
+:root {
+  --borderRadius: 0.7rem;
+  --borderWidth: 0.01rem;
+}
+
+.outlinedButton {
+  padding: 0.4rem 0.8rem;
+  border-radius: 3rem;
+  background-color: white;
+  color: purple;
+  transition: 350ms ease-in-out;
+}
